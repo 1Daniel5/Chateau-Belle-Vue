@@ -100,7 +100,7 @@ const heritageTabsData = [
     title: 'From Humble Beginnings',
     text: 'What began as a small family plot has grown into one of France most respected vineyards. Through wars, economic crises, and changing tastes, we have remained steadfast in our commitment to quality.',
     highlight: 'Six generations of uninterrupted family ownership',
-    image: '../images/founder.png'
+    image: 'https://images.unsplash.com/photo-1585075658847-8b1185ed088e?q=80&w=438&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'craft',
@@ -118,7 +118,7 @@ const heritageTabsData = [
     title: 'Celebrated Worldwide',
     text: 'Our dedication to excellence has earned us recognition from the world most prestigious wine competitions. But our greatest reward is the satisfaction of wine lovers who choose Chateau Belle Vue.',
     highlight: 'Over 100 international awards and counting',
-    image: './images/museum-awards.jpg'
+    image: 'https://plus.unsplash.com/premium_photo-1714329906121-4a87841591a3?q=80&w=810&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   }
 ];
 
@@ -522,7 +522,7 @@ function App() {
             {/* Founder Image */}
             <div className="relative flex justify-center">
               <img 
-                src="./images/founder.png" 
+                src="https://images.unsplash.com/photo-1585075658847-8b1185ed088e?q=80&w=438&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                 alt="Henri Dupont, Founder"
                 className="max-h-[400px] sepia-[0.3] rounded-lg"
               />
@@ -827,7 +827,7 @@ function App() {
         {/* Background Image with Ken Burns effect */}
         <div className="absolute inset-0 z-[-2]">
           <motion.img
-            src="./images/winery-vineyards.jpg"
+            src="https://images.unsplash.com/photo-1637181156153-bedd1098f8c1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Chateau Belle Vue Vineyard"
             className="w-full h-full object-cover"
             animate={{ scale: [1, 1.1] }}
