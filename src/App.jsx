@@ -100,7 +100,7 @@ const heritageTabsData = [
     title: 'From Humble Beginnings',
     text: 'What began as a small family plot has grown into one of France most respected vineyards. Through wars, economic crises, and changing tastes, we have remained steadfast in our commitment to quality.',
     highlight: 'Six generations of uninterrupted family ownership',
-    image: './images/founder.png'
+    image: '../images/founder.png'
   },
   {
     id: 'craft',
