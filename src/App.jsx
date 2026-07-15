@@ -5,6 +5,7 @@ import {
   Phone, Mail, Clock as ClockIcon, MapPin as MapPinIcon
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import CrownLogo from './components/CrownLogo';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
@@ -1052,9 +1053,14 @@ function App() {
         <div className="max-w-[1280px] mx-auto px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.5fr] gap-12 mb-16">
             {/* Brand Column */}
-            <div>
-              <h3 className="font-serif text-2xl font-semibold mb-1">Chateau Belle Vue</h3>
-              <p className="text-xs text-[#d4bc7e] tracking-[0.1em] mb-4">Est. 1887</p>
+            <div className="flex flex-col items-start">
+              <div className="flex items-center gap-3 mb-2">
+                <CrownLogo size={40} className="rounded" />
+                <div>
+                  <h3 className="font-serif text-2xl font-semibold mb-0">Chateau Belle Vue</h3>
+                  <p className="text-xs text-[#d4bc7e] tracking-[0.1em]">Est. 1887</p>
+                </div>
+              </div>
               <p className="text-sm text-white/70 leading-relaxed mb-6">
                 A family-owned vineyard estate crafting exceptional wines since 1887. 
                 Experience the art of winemaking in the heart of Bordeaux.
