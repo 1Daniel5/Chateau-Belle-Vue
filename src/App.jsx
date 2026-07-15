@@ -1134,14 +1134,18 @@ function App() {
           </div>
 
           {/* Footer Bottom */}
-          <div className="pt-8 border-t border-white/10 text-center">
-            <p className="text-sm text-white/60 mb-3">&copy; 2024 Chateau Belle Vue. All rights reserved.</p>
+          <div className="pt-8 border-t border-white/10">
+            <div className="flex items-center justify-center gap-4 mb-3">
+              <CrownLogo size={20} />
+              <p className="text-sm text-white/60 mb-0">&copy; 2024 Chateau Belle Vue. All rights reserved.</p>
+              <CrownLogo size={20} />
+            </div>
             <div className="flex justify-center gap-6 mb-4">
               {['Privacy Policy', 'Terms of Use', 'Cookie Policy'].map((item) => (
                 <a key={item} href="#" className="text-xs text-white/50 hover:text-[#c9a962] transition-colors">{item}</a>
               ))}
             </div>
-            <p className="text-[11px] text-white/40">
+            <p className="text-[11px] text-white/40 text-center">
               Please drink responsibly. You must be of legal drinking age to visit our website.
             </p>
           </div>
